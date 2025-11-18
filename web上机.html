@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>轻音乐阅读夜 · Soft Music Reading</title>
+    <style>
+        .page {
+            display: inline-block;
+            background-color: #FFE6EE; /* 樱花粉 */
+            box-shadow: 0 0 30px rgba(80, 58, 35, 0.25);
+            text-align: left;
+            max-width: 720px;
+        }
+        div table a {
+            color: blue; /* 后代选择器示例 */
+        }
+        a:link {
+            color: blue;
+        }
+        a:visited {
+            color: purple;
+        }
+        a:hover {
+            color: red;
+        }
+        a:active {
+            color: green;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: Arial, sans-serif; /* 并集选择器示例 */
+        }
+        p#intro {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #FF6B6B; /* ID选择器，强调显示 */
+        }
+        a.red {
+            color: red; /* 带类名的链接 */
+        }
+        a.blue {
+            color: blue; /* 带类名的链接 */
+        }
+        p::first-letter {
+            font-size: 1.5em; /* 伪元素示例 */
+        }
+        div::first-line {
+            font-weight: bold; /* 伪元素示例 */
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <!-- 顶部标题区 -->
+        <div>
+            <h1>轻音乐阅读夜 · Soft Music Reading</h1>
+        </div>
+
+        <!-- 活动介绍区 -->
+        <div>
+            <h2 id="intro">活动介绍</h2>
+            <p>在轻柔的音乐旋律中，享受阅读的乐趣，让心灵在字里行间得到放松与滋养。^[1]^</p>
+            <p>本次活动特别选取了多首轻音乐作为背景，搭配经典与现代文学作品，营造一个温馨而宁静的阅读氛围。</p>
+            <p id="intro">重要提示：请携带一本您喜爱的书籍，与我们一起分享阅读的快乐。</p>
+        </div>
+
+        <!-- 活动报名信息表格区 -->
+        <div>
+            <h3>报名信息</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>姓名</th>
+                        <th>阅读书籍</th>
+                        <th>阅读状态</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>张三</td>
+                        <td>《小王子》</td>
+                        <td>专注中</td>
+                    </tr>
+                    <tr>
+                        <td>李四</td>
+                        <td>《追风筝的人》</td>
+                        <td>松弛中</td>
+                    </tr>
+                    <tr>
+                        <td>王五</td>
+                        <td>《解忧杂货店》</td>
+                        <td>聆听中</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 页面链接区 -->
+        <div>
+            <h3>相关链接</h3>
+            <div>
+                <a href="https://hongchenwusdnu.github.io/bookstore/job4.html" class="red">查看往期活动照片</a><br>
+                <a href="your_job3_link.html" class="blue">在线咨询活动详情</a> <!-- 替换为实际的job3.html链接 -->
+            </div>
+        </div>
+
+        <!-- 底部公告区 -->
+        <div class="notice">
+            <p>公告一：活动将于每周五晚7点准时开始，请提前10分钟到场。<br>请大家遵守现场秩序，保持安静。</p>
+            <p>公告二：现场提供轻音乐播放列表，参与者可自由点播喜欢的曲目。<br>让我们一起沉浸在音乐与文字的海洋中。</p>
+            <p>公告三：活动结束后，欢迎大家分享自己的阅读心得与音乐感受。<br>期待与您共度每一个美好的阅读夜晚。</p>
+        </div>
+    </div>
+</body>
+</html>
